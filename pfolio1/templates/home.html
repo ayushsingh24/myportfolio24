@@ -1,0 +1,93 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <title>Document</title>
+</head>
+<body>
+    <div class="nav">
+        <a href="#" class="bttn">Home</a>
+        <a href="#about" class="bttn">About Me</a>
+        <a href="#certificates" class="bttn">Certificates</a>
+        <a href="#projects" class="bttn">Projects</a>
+        <a href="#contact" class="bttn">Contact</a>
+    </div>
+
+    <br><br>
+
+    <div class="contain">
+        <div class="head1">AYUSH KUMAR SINGH</div>
+        <div class="dt1">
+            <p class="detail">I, Ayush Kumar Singh, welcome you to my candidate portfolio.<br>I am very excited to show you my work.<br>This Portfolio consist all my achievements, skills and projects.<br>Feel free to contact for further details.</p>
+        </div>
+    </div>
+
+    <br><br>
+
+    <div class="about" id="about">
+        <div class="head">About Me</div>
+        <div class="dt2">
+            <p class="about">I'm a 3rd year B.Tech student in VIT Bhopal Electronics and Communication Department.<br> Since I'm an ECE student, I was not that engaged with programming.<br>I learnt python in my 2nd year just for personal interest.<br>After that, I learnt Django as a backend framework as I wanted to do something relevant with my skills.<br>I learnt HTML, CSS and Javascript to complete my skill set as a web developer.<br>I am really good at backend development.</p>
+        </div>
+    </div>
+
+    <br><br><br><br>
+
+    <div class="certify" id="certificates">
+        <div class="head">Certificates</div>
+        <div class="dt3">
+            <p class="certify">For all my skills, I used Udemy courses as a learning material.</p>
+            <div class="image">
+                <img src="{% static 'images/python3.jpg' %}">
+                <img src="{% static 'images/django.jpg' %}">
+                <img src="{% static 'images/html.jpg' %}">
+            </div>
+            <div class="image">
+                <img src="{% static 'images/html5.jpg' %}">
+                <img src="{% static 'images/html,css,js.jpg' %}">
+                <img src="{% static 'images/bootstrap.jpg' %}">
+            </div>
+        </div>
+    </div>
+
+    <br><br><br><br>
+
+    <div class="project" id="projects">
+        <div class="head">Projects</div>
+        <div class="image">
+            <div class="img">
+                <img src="{% static 'images/news24-7.png' %}">
+                <p>This was my first website. I designed it from scratch. For data, I used a news api.<br>
+                    <a href="https://news24-7.herokuapp.com/">View Website</a>
+                </p>
+            </div>
+
+            <div class="img">
+                <img src="{% static 'images/vidarbha.png' %}">
+                <p>This was a website I designed for a local transport business.It uses SQlite as database to store all the details about bookings.<br>
+                    <a href="https://vidarbhagoodscarrier.herokuapp.com/">View Website</a>
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <br><br><br><br>
+
+    <div class="contact" id="contact">
+        <div class="head">Contact me</div>
+            <div class="contact1">
+
+                <p>Mobile no. : 
+                        <a href="tel:6387972627" class="noline">6387972627</a>,
+                </p>
+
+                <p>Email: <a href="mailto:ayush.singh2018@vitbhopal.ac.in" class="noline">ayush.singh2018@vitbhopal.ac.in</a></p>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>

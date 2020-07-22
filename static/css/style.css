@@ -1,0 +1,153 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0px;
+    color: black;
+}
+
+div.nav{
+    display: flex;
+    justify-content: center;
+}
+
+a.bttn{
+    background-color: rgb(44, 44, 44);
+    width: 20%;
+    border: 5px;
+    padding: 10px;
+    font-weight: bold;
+    color: aqua;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 1.5vw;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+a.bttn:hover{
+    background-color: aqua;
+    color: rgb(44, 44, 44);
+}
+
+div.contain{
+    padding: 50px;
+    background: black;
+    border-radius: 10px;
+}
+
+div.head1{
+    text-align: center;
+    font-size: 300%;
+    font-weight: bold;
+    color: goldenrod;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+div.head{
+    text-align: center;
+    font-size: 250%;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 10px;
+}
+
+div.dt1{
+    color: goldenrod;
+    padding: 50px;
+    margin: 20px;
+    font-family: cursive;
+    text-align: center;
+}
+
+p.detail{
+    font-size: 200%;
+
+}
+
+p.about{
+    text-align: center;
+    font-size: 200%;
+    padding: 15px;
+    color: black;
+}
+
+div.certify{
+    background: rgb(44, 44, 44);
+    color: aqua;
+}
+
+p.certify{
+    text-align: center;
+    font-size: 150%;
+}
+
+div.image{
+    display: flex;
+    justify-content: center;
+}
+
+img{
+    width: 30%;
+    height: 30%;
+    border: 3px black solid;
+    margin: 10px;
+}
+
+div.project{
+    color: aqua;
+    background: rgb(44, 44, 44);
+}
+
+div.img{
+    width: 50%;
+    height: 50%;
+    margin: 10px;
+}
+
+div.img img{
+    width: 100%;
+    height: 100%;
+    border: 3px black solid;
+    margin: 10px;
+}
+
+p{
+    padding-left: 10px;
+    font-size: 130%;
+    color: white;
+}
+
+div.img a{
+    text-decoration: none;
+    color: aqua;
+}
+
+div.img a:hover{
+    text-decoration: none;
+    cursor: pointer;
+    color: red;
+}
+
+div.contact{
+    background: rgb(44, 44, 44);
+    color: aqua;
+}
+
+div.contact1{
+    text-align: center;
+    padding: 30px;
+    color: white;
+}
+
+p a{
+    color: aqua;
+    text-decoration: none;
+}
+
+p a:hover{
+    text-decoration: none;
+    color: red;
+}
