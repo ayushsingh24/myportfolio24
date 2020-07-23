@@ -90,15 +90,43 @@ div.image{
 }
 
 img{
-    width: 30%;
-    height: 30%;
+    width: 50%;
+    height: 50%;
     border: 3px black solid;
     margin: 10px;
+}
+
+h1{
+    text-align: center;
+    text-decoration: underline;
+}
+
+ul.certify{
+    list-style-type: circle;
+    list-style-position: outside;
+    font-size: x-large;
 }
 
 div.project{
     color: aqua;
     background: rgb(44, 44, 44);
+}
+
+h2{
+    text-align: center;
+    padding: 15px;
+    padding-bottom: 30px;
+}
+
+h2 a{
+    text-decoration: none;
+    color: white;
+}
+
+h2 a:hover{
+    text-decoration: none;
+    cursor: pointer;
+    color: red;
 }
 
 div.img{
@@ -112,6 +140,12 @@ div.img img{
     height: 100%;
     border: 3px black solid;
     margin: 10px;
+}
+
+a.link{
+    text-align: center;
+    font-size: 170%;
+    color: white;
 }
 
 p{
