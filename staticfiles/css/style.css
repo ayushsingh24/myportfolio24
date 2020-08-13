@@ -129,11 +129,16 @@ h2 a:hover{
     color: red;
 }
 
-div.img img{
-    width: 90%;
-    height: 90%;
+div.ig{
+    width: 100%;
+    height: 100%;
+}
+
+div.ig img{
+    width: inherit;
+    height: inherit;
     border: 3px black solid;
-    margin: 10px;
+    margin: 0px;
 }
 
 div.link{
