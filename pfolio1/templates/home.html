@@ -4,17 +4,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15.0.0/dist/smooth-scroll.polyfills.min.js"></script>
+    <script src="{% static 'js/script.js' %}"></script>
     <title>Portfolio</title>
 </head>
 <body>
     <div class="nav">
-        <a href="#" class="bttn">Home</a>
-        <a href="#about" class="bttn">About Me</a>
-        <a href="#certificates" class="bttn">Certificates</a>
-        <a href="#projects" class="bttn">Projects</a>
-        <a href="#contact" class="bttn">Contact</a>
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+            <i class="fas fa-bars"></i>
+        </label>
+        <div class="ul">
+            <a href="#" class="bttn">Home</a>
+            <a href="#about" class="bttn">About Me</a>
+            <a href="#certificates" class="bttn">Certificates</a>
+            <a href="#projects" class="bttn">Projects</a>
+            <a href="#contact" class="bttn">Contact</a>
+        </div>
     </div>
+    <section></section>
 
     <br><br>
 
@@ -127,8 +137,6 @@
             </div>
         </div>
     </div>
-    
-    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15.0.0/dist/smooth-scroll.polyfills.min.js"></script>
-    <script src="{% static 'js/script.js' %}"></script>
+
 </body>
 </html>
