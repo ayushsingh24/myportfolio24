@@ -12,16 +12,11 @@ div.nav{
     justify-content: center;
 }
 
-@media (max-width: 700px){
+@media (max-width: 500px){
     div.nav{
-        display: flex;
-        width: 100px;
-    }
-    a.bttn{
-        display: block;
+        display: none;
     }
 }
-
 a.bttn{
     background-color: rgb(44, 44, 44);
     width: 20%;
