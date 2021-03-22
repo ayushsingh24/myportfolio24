@@ -10,12 +10,8 @@ body{
 div.nav{
     display: flex;
     justify-content: center;
-}
-
-@media (max-width: 500px){
-    div.nav{
-        display: none;
-    }
+    width: 100%;
+    position: fixed;
 }
 
 a.bttn{
@@ -28,7 +24,6 @@ a.bttn{
     padding: 15px 32px;
     text-align: center;
     display: inline-block;
-    font-size: 1.5vw;
     cursor: pointer;
     text-decoration: none;
 }
