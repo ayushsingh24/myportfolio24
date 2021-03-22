@@ -12,9 +12,14 @@ div.nav{
     justify-content: center;
 }
 
-@media (max-width: 858px){
+@media (max-width: 700px){
     div.nav{
-        display: none;
+        display: flex;
+        width: 10%;
+    }
+    a.bttn{
+        display: block;
+        text-align: left;
     }
 }
 
