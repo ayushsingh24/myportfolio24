@@ -11,7 +11,7 @@ div.nav{
     display: flex;
     justify-content: center;
     width: 100%;
-    height: 55px;
+    height: 50px;
     position: fixed;
 }
 
@@ -24,6 +24,7 @@ a.bttn{
     padding: 15px 32px;
     font-size: 2vw;
     text-align: center;
+    vertical-align: center;
     display: inline-block;
     cursor: pointer;
     text-decoration: none;
@@ -66,12 +67,11 @@ div.dt1{
 }
 
 div.about{
-    padding-top: 35px;
+    padding-top: 45px;
 }
 
 p.detail{
     font-size: 200%;
-
 }
 
 p.about{
@@ -84,7 +84,7 @@ p.about{
 div.certify{
     background: rgb(44, 44, 44);
     color: aqua;
-    padding-top: 35px;
+    padding-top: 45px;
 }
 
 p.certify{
@@ -118,7 +118,7 @@ ul.certify{
 div.project{
     color: aqua;
     background: rgb(44, 44, 44);
-    padding-top: 35px;
+    padding-top: 45px;
 }
 
 h2{
