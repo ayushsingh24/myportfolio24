@@ -11,17 +11,18 @@ div.nav{
     display: flex;
     justify-content: center;
     width: 100%;
+    height: 35px;
     position: fixed;
 }
 
 a.bttn{
     background-color: rgb(44, 44, 44);
     width: 20%;
-    border: 5px;
     padding: 0px;
     font-weight: bold;
     color: aqua;
     padding: 15px 32px;
+    font-size: 100%;
     text-align: center;
     display: inline-block;
     cursor: pointer;
