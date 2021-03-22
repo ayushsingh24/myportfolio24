@@ -14,12 +14,10 @@ div.nav{
 
 @media (max-width: 700px){
     div.nav{
-        display: flex;
-        width: 10%;
+        width: 5%;
     }
     a.bttn{
         display: block;
-        text-align: left;
     }
 }
 
