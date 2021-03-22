@@ -14,7 +14,8 @@ div.nav{
 
 @media (max-width: 700px){
     div.nav{
-        width: 5%;
+        display: flex;
+        width: 100px;
     }
     a.bttn{
         display: block;
