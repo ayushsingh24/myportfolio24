@@ -75,6 +75,10 @@ p.about{
     color: black;
 }
 
+div.cont{
+    padding: 15px;
+}
+
 div.certify{
     background: rgb(44, 44, 44);
     color: aqua;
