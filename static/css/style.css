@@ -66,7 +66,7 @@ div.dt1{
 }
 
 div.about{
-    padding-top: 45px;
+    padding-top: 55px;
 }
 
 p.detail{
@@ -83,7 +83,7 @@ p.about{
 div.certify{
     background: rgb(44, 44, 44);
     color: aqua;
-    padding-top: 45px;
+    padding-top: 55px;
 }
 
 p.certify{
@@ -117,7 +117,7 @@ ul.certify{
 div.project{
     color: aqua;
     background: rgb(44, 44, 44);
-    padding-top: 45px;
+    padding-top: 55px;
 }
 
 h2{
